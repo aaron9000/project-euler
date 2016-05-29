@@ -3,11 +3,6 @@ import bigInt from 'big-integer';
 import Heap from 'heap';
 import fs from 'fs';
 
-function logAndReturn(v) {
-    console.log(v);
-    return v;
-}
-
 const sortAscending = R.sort((a, b) => a - b);
 const sortDescending = R.sort((a, b) => b - a);
 
